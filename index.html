@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AeroSport</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f5f5f5;
+}
+
+/* NAVBAR */
+
+.navbar{
+    background:#000;
+}
+
+.navbar-brand{
+    color:white !important;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.nav-link{
+    color:white !important;
+    font-weight:bold;
+    margin:0 6px;
+    padding:8px 18px;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    background:#00c7b7;
+    color:white !important;
+}
+
+/* CARRUSEL */
+
+.carousel-item img{
+    height:650px;
+    object-fit:cover;
+}
+
+.hero-text{
+    background:rgba(0,0,0,.6);
+    padding:25px;
+    border-radius:15px;
+}
+
+.logo-circle{
+    width:160px;
+    height:160px;
+    border-radius:50%;
+    background:white;
+    margin:auto;
+    margin-bottom:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:5px solid #00c7b7;
+}
+
+.logo-circle img{
+    width:85%;
+}
+
+.section-title{
+    color:#00c7b7;
+    text-align:center;
+    margin-bottom:45px;
+    font-weight:bold;
+}
+
+.card{
+    transition:.4s;
+    border:none;
+    overflow:hidden;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0px 10px 25px rgba(0,0,0,.25);
+}
+
+.card img{
+    height:250px;
+    object-fit:cover;
+}
+
+.btn-aero{
+    background:#00c7b7;
+    color:white;
+    font-weight:bold;
+}
+
+.btn-aero:hover{
+    background:#009688;
+    color:white;
+}
+
+#nosotros{
+    background:white;
+}
+
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- MENU -->
+
+<nav class="navbar navbar-expand-lg">
+
+<div class="container">
+
+<a class="navbar-brand" href="#">
+AeroSport
+</a>
+
+<button
+class="navbar-toggler bg-light"
+type="button"
+data-bs-toggle="collapse"
+data-bs-target="#menu">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link" href="#inicio">Inicio</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#productos">Productos</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#nosotros">Nosotros</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#contacto">Contacto</a>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</nav>
+
+<!-- CARRUSEL -->
+
+<section id="inicio">
+
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+
+<div class="carousel-inner">
+
+<div class="carousel-item active">
+
+<img src="img/portada1.jpg" class="d-block w-100">
+
+<div class="carousel-caption">
+
+<div class="hero-text">
+
+<div class="logo-circle">
+
+<img src="C:\Users\javic\Downloads\CJ.png">
+
+</div>
+
+<h1>AeroSport</h1>
+
+<p>
+
+Viste tu pasión.<br>
+
+Nuestro impulso.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="carousel-item">
+
+<img src="img/portada2.jpg" class="d-block w-100">
+
+<div class="carousel-caption">
+
+<div class="hero-text">
+
+<h1>Comodidad</h1>
+
+<p>
+
+Diseñada para entrenar sin límites.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="carousel-item">
+
+<img src="img/portada3.jpg" class="d-block w-100">
+
+<div class="carousel-caption">
+
+<div class="hero-text">
+
+<h1>Rendimiento</h1>
+
+<p>
+
+Materiales de alto rendimiento para cualquier deporte.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<button class="carousel-control-prev"
+type="button"
+data-bs-target="#carouselExample"
+data-bs-slide="prev">
+
+<span class="carousel-control-prev-icon"></span>
+
+</button>
+
+<button class="carousel-control-next"
+type="button"
+data-bs-target="#carouselExample"
+data-bs-slide="next">
+
+<span class="carousel-control-next-icon"></span>
+
+</button>
+
+</div>
+
+</section>
+	<!-- PRODUCTOS -->
+
+<section id="productos" class="container py-5">
+
+<h2 class="section-title">
+Nuestros Productos
+</h2>
+
+<div class="row g-4">
+
+<!-- T-SHIRT -->
+
+<div class="col-md-3">
+
+<div class="card shadow h-100">
+
+<img src="C:\Users\javic\Downloads\t-sirt.png" class="card-img-top">
+
+<div class="card-body">
+
+<h4>T-Shirt</h4>
+
+<p>
+Camiseta deportiva ligera, transpirable y cómoda para cualquier entrenamiento.
+</p>
+
+<button
+class="btn btn-aero w-100"
+data-bs-toggle="modal"
+data-bs-target="#tshirt">
+
+Ver más
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- PANTS -->
+
+<div class="col-md-3">
+
+<div class="card shadow h-100">
+
+<img src="C:\Users\javic\Downloads\pants.png" class="card-img-top">
+
+<div class="card-body">
+
+<h4>Pants</h4>
+
+<p>
+Comodidad y libertad de movimiento para entrenar o usar diariamente.
+</p>
+
+<button
+class="btn btn-aero w-100"
+data-bs-toggle="modal"
+data-bs-target="#pants">
+
+Ver más
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- PANTALONETA -->
+
+<div class="col-md-3">
+
+<div class="card shadow h-100">
+
+<img src="C:\Users\javic\Downloads\pantalonetas.png" class="card-img-top">
+
+<div class="card-body">
+
+<h4>Pantaloneta</h4>
+
+<p>
+Ligera, transpirable y diseñada para el máximo rendimiento.
+</p>
+
+<button
+class="btn btn-aero w-100"
+data-bs-toggle="modal"
+data-bs-target="#pantaloneta">
+
+Ver más
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- SUDADERA -->
+
+<div class="col-md-3">
+
+<div class="card shadow h-100">
+
+<img src="C:\Users\javic\Downloads\sudadera.png" class="card-img-top">
+
+<div class="card-body">
+
+<h4>Sudadera</h4>
+
+<p>
+Ideal para entrenamientos y actividades al aire libre.
+</p>
+
+<button
+class="btn btn-aero w-100"
+data-bs-toggle="modal"
+data-bs-target="#sudadera">
+
+Ver más
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- MALETIN -->
+
+<div class="col-md-3">
+
+<div class="card shadow h-100">
+
+<img src="C:\Users\javic\Downloads\maletin.png" class="card-img-top">
+
+<div class="card-body">
+
+<h4>Maletín</h4>
+
+<p>
+Espacioso, resistente y perfecto para el gimnasio o la universidad.
+</p>
+
+<button
+class="btn btn-aero w-100"
+data-bs-toggle="modal"
+data-bs-target="#maletin">
+
+Ver más
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- GORRA -->
+
+<div class="col-md-3">
+
+<div class="card shadow h-100">
+
+<img src="C:\Users\javic\Downloads\gorra.png" class="card-img-top">
+
+<div class="card-body">
+
+<h4>Gorra Deportiva</h4>
+
+<p>
+Protección y estilo para cualquier entrenamiento.
+</p>
+
+<button
+class="btn btn-aero w-100"
+data-bs-toggle="modal"
+data-bs-target="#gorra">
+
+Ver más
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- LLAVERO -->
+
+<div class="col-md-3">
+
+<div class="card shadow h-100">
+
+<img src="C:\Users\javic\Downloads\llavero.png" class="card-img-top">
+
+<div class="card-body">
+
+<h4>Llavero</h4>
+
+<p>
+Accesorio exclusivo con la identidad de AeroSport.
+</p>
+
+<button
+class="btn btn-aero w-100"
+data-bs-toggle="modal"
+data-bs-target="#llavero">
+
+Ver más
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- PACHON -->
+
+<div class="col-md-3">
+
+<div class="card shadow h-100">
+
+<img src="C:\Users\javic\Downloads\pachon logo.png" class="card-img-top">
+
+<div class="card-body">
+
+<h4>Pachón</h4>
+
+<p>
+Botella deportiva ideal para mantenerte hidratado.
+</p>
+
+<button
+class="btn btn-aero w-100"
+data-bs-toggle="modal"
+data-bs-target="#pachon">
+
+Ver más
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>	
+	<!-- NOSOTROS -->
+
+<section id="nosotros" class="py-5">
+
+<div class="container">
+
+<h2 class="section-title">
+¿Quiénes Somos?
+</h2>
+
+<div class="row align-items-center">
+
+<div class="col-md-6">
+
+<img
+src="C:\Users\javic\Downloads\CJslogan y logo.png"
+class="img-fluid rounded shadow">
+
+</div>
+
+<div class="col-md-6">
+
+<h3>AeroSport</h3>
+
+<p>
+
+En AeroSport creemos que el deporte es mucho más que una actividad; es una forma de expresar quién eres.
+
+</p>
+
+<p>
+
+Diseñamos ropa deportiva con materiales de alto rendimiento que ofrecen comodidad, frescura y libertad de movimiento para acompañarte en cada reto.
+
+</p>
+
+<p>
+
+Nuestra misión es inspirar a cada atleta a superar sus límites con prendas modernas, resistentes y llenas de estilo.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACTO -->
+
+<section id="contacto" class="container py-5">
+
+<h2 class="section-title">
+Contáctanos
+</h2>
+
+<div class="row justify-content-center">
+
+<div class="col-md-8">
+
+<form>
+
+<div class="mb-3">
+
+<label class="form-label">
+
+Nombre
+
+</label>
+
+<input
+type="text"
+class="form-control"
+required>
+
+</div>
+
+<div class="mb-3">
+
+<label class="form-label">
+
+Correo Electrónico
+
+</label>
+
+<input
+type="email"
+class="form-control"
+required>
+
+</div>
+
+<div class="mb-3">
+
+<label class="form-label">
+
+Teléfono
+
+</label>
+
+<input
+type="tel"
+class="form-control">
+
+</div>
+
+<div class="mb-3">
+
+<label class="form-label">
+
+Mensaje
+
+</label>
+
+<textarea
+class="form-control"
+rows="5"
+required>
+
+</textarea>
+
+</div>
+
+<button
+class="btn btn-aero">
+
+Enviar Mensaje
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<h4>AeroSport</h4>
+
+<p>
+
+Viste tu pasión. Nuestro impulso.
+
+</p>
+
+<p>
+
+© 2026 AeroSport | Todos los derechos reservados.
+
+</p>
+
+</footer>
+	<div class="modal fade" id="tshirt">
+
+<div class="modal-dialog">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h3>T-Shirt</h3>
+
+<button
+class="btn-close"
+data-bs-dismiss="modal">
+</button>
+
+</div>
+
+<div class="modal-body">
+
+<img
+src="img/tshirt.jpg"
+class="img-fluid mb-3">
+
+<p>
+
+No importa cuál sea tu deporte, tu entrenamiento o tu próximo reto.
+
+La camiseta AeroSport ofrece comodidad, ligereza y libertad de movimiento para rendir al máximo.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+	<div class="modal fade" id="pants">
+<div class="modal fade" id="pantaloneta">
+
+<div class="modal-dialog">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h3>Pantaloneta</h3>
+
+<button class="btn-close" data-bs-dismiss="modal"></button>
+
+</div>
+
+<div class="modal-body">
+
+<img src="img/pantaloneta.jpg" class="img-fluid mb-3">
+
+<p>
+
+Ligera, transpirable y de secado rápido para entrenar con la máxima comodidad.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="modal-dialog">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h3>Pants</h3>
+
+<button class="btn-close" data-bs-dismiss="modal"></button>
+
+</div>
+
+<div class="modal-body">
+
+<img src="img/pants.jpg" class="img-fluid mb-3">
+
+<p>
+
+El Pants AeroSport combina comodidad, tejido ligero y un diseño moderno para cualquier entrenamiento.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+	<div class="modal fade" id="sudadera">
+
+<div class="modal-dialog">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h3>Sudadera</h3>
+
+<button class="btn-close" data-bs-dismiss="modal"></button>
+
+</div>
+
+<div class="modal-body">
+
+<img src="img/sudadera.jpg" class="img-fluid mb-3">
+
+<p>
+
+Su tejido suave y resistente brinda comodidad antes, durante y después del entrenamiento.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+	<!-- MODAL MALETÍN -->
+
+<div class="modal fade" id="maletin">
+
+<div class="modal-dialog modal-lg">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h3 class="modal-title">
+Maletín AeroSport
+</h3>
+
+<button
+class="btn-close"
+data-bs-dismiss="modal">
+</button>
+
+</div>
+
+<div class="modal-body">
+
+<img
+src="img/maletin.jpg"
+class="img-fluid rounded mb-3">
+
+<p>
+
+El Maletín AeroSport está diseñado para quienes viven en movimiento.
+
+Cuenta con materiales resistentes, amplio espacio y compartimentos ideales para transportar ropa deportiva, accesorios y artículos personales.
+
+Es perfecto para el gimnasio, la universidad o el trabajo.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- MODAL GORRA -->
+
+<div class="modal fade" id="gorra">
+
+<div class="modal-dialog modal-lg">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h3 class="modal-title">
+Gorra Deportiva
+</h3>
+
+<button
+class="btn-close"
+data-bs-dismiss="modal">
+</button>
+
+</div>
+
+<div class="modal-body">
+
+<img
+src="img/gorra.jpg"
+class="img-fluid rounded mb-3">
+
+<p>
+
+La Gorra AeroSport combina comodidad y estilo.
+
+Ideal para protegerte del sol durante tus entrenamientos y complementar cualquier outfit deportivo.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- MODAL LLAVERO -->
+
+<div class="modal fade" id="llavero">
+
+<div class="modal-dialog modal-lg">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h3 class="modal-title">
+Llavero AeroSport
+</h3>
+
+<button
+class="btn-close"
+data-bs-dismiss="modal">
+</button>
+
+</div>
+
+<div class="modal-body">
+
+<img
+src="img/llavero.jpg"
+class="img-fluid rounded mb-3">
+
+<p>
+
+Llavero exclusivo de la marca AeroSport.
+
+Diseñado para acompañarte en tu día a día y demostrar tu pasión por el deporte.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- MODAL PACHÓN -->
+
+<div class="modal fade" id="pachon">
+
+<div class="modal-dialog modal-lg">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h3 class="modal-title">
+Pachón Deportivo
+</h3>
+
+<button
+class="btn-close"
+data-bs-dismiss="modal">
+</button>
+
+</div>
+
+<div class="modal-body">
+
+<img
+src="img/pachon.jpg"
+class="img-fluid rounded mb-3">
+
+<p>
+
+El Pachón AeroSport está diseñado para mantenerte hidratado durante cualquier entrenamiento.
+
+Fabricado con materiales resistentes y un diseño moderno para acompañarte en cada reto.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
